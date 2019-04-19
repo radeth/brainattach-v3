@@ -1,3 +1,5 @@
+import "../css/style.scss";
+import "./../../node_modules/bootstrap/dist/css/bootstrap-grid.css"
 let url_string = window.location.href
 let url = new URL(url_string);
 let paramID = url.searchParams.get("id");
