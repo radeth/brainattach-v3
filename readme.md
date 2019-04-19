@@ -1,2 +1,4 @@
-# WP api test
-- webpack js files to html files
+# brainattach v3 pure html css js using WPapi
+# TODO's
+- zapełnic strone contenetm
+- stworzyć style
