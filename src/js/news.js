@@ -1,5 +1,4 @@
-import "../css/style.scss";
-import "./../../node_modules/bootstrap/dist/css/bootstrap-grid.css"
+
 let postHTML = document.getElementById('postsList')
 let WPapiURL =
   "https://serwer1856486.home.pl/autoinstalator/wordpress2/index.php/wp-json/wp/v2/posts";

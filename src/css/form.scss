@@ -1,0 +1,32 @@
+form{
+  color:black;
+  font-family: $fontParagraph;
+    input {
+      transition: color 10s;
+      padding: 2%;
+      height: 20%;
+      border: 1px solid $colorGray;
+      width: 90%;
+      margin: 1vh;
+      border-radius: 8px;
+      outline: none;
+      &:focus {
+        box-shadow: 0 0 5px $colorGreen;
+        border: 1px solid $colorGreen;
+      }
+
+    }
+    textarea {
+      width: 90%;
+      padding: 2%;
+      border: 1px solid $colorGray;
+      margin: 1vh;
+      border-radius: 8px;
+      resize: none;
+      outline: none;
+      &:focus {
+        box-shadow: 0 0 5px $colorGreen;
+        border: 1px solid $colorGreen;
+      }
+    }
+}

@@ -1,0 +1,24 @@
+@import "./settings";
+nav {
+    background-color:$colorGray;
+  ul {
+    margin: 0;
+    padding: 0;
+    li {
+      display: inline-block;
+      list-style-type: none;
+    }
+  }
+  a {
+    color: white;
+    font-family: $fontCool;
+    font-weight: 900;
+    display: block;
+    line-height: 2em;
+    text-decoration: none;
+  }
+  img{
+      height: auto;
+      width: 100%
+  }
+}

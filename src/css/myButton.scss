@@ -1,0 +1,16 @@
+.myButton {
+  font-family: $fontCool;
+    min-width: 35%;
+    transition: 1s;
+    background-color: $colorGreen;
+    border-radius: 28px;
+    border: 1px solid $colorGreen;
+    display: inline-block;
+    cursor: pointer;
+    color: white;
+    font-size: 1.4rem;
+    padding: 0.9rem;
+    text-decoration: none;
+    text-shadow: 0px 2px 0px $colorGreen;
+  }
+  
