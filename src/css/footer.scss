@@ -1,0 +1,13 @@
+footer {
+    text-align: center;
+    p{
+        font-weight: 900;
+        font-family: $fontCool
+    }
+  img {
+    position: relative;
+    filter: blur(1px);
+    height: auto;
+    width: 100%;
+  }
+}

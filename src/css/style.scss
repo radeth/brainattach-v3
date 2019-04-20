@@ -1,7 +1,16 @@
-@import  "./settings";
+@import "./settings";
 @import "./myButton.scss";
 @import "./navBar.scss";
 @import "./form.scss";
-h1{
-    font-family: $fontCool
+@import "./postsList.scss";
+@import "./footer.scss";
+@import "./post.scss";
+h1 {
+  font-family: $fontCool;
 }
+h2{
+  font-weight: 800;
+  font-family: $fontTitle;
+}
+
+

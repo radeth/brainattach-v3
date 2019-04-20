@@ -1,6 +1,7 @@
 @import "./settings";
 nav {
-    background-color:$colorGray;
+  font-family: $fontCool;
+  background-color: $colorGray;
   ul {
     margin: 0;
     padding: 0;
@@ -11,14 +12,14 @@ nav {
   }
   a {
     color: white;
-    font-family: $fontCool;
+
     font-weight: 900;
     display: block;
     line-height: 2em;
     text-decoration: none;
   }
-  img{
-      height: auto;
-      width: 100%
+  img {
+    height: auto;
+    width: 100%;
   }
 }
