@@ -1,6 +1,8 @@
 import "./../../node_modules/bootstrap/dist/css/bootstrap-grid.css"
 import "reset-css"
 import "./../css/style.scss"
+import './preloader.js'
+import preloader from "./preloader.js";
 let postHTML = document.getElementById('postsList')
 let WPapiURL =
   "https://serwer1856486.home.pl/autoinstalator/wordpress2/index.php/wp-json/wp/v2/posts";
@@ -10,6 +12,9 @@ let WPapiURL =
   .then(json => {
     json.forEach(element => {
       writePost(element)
+      setTimeout(()=>{
+        preloader()
+      },500)
     });
   })
   .catch(err => console.log(err));
