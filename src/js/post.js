@@ -1,7 +1,7 @@
 import "./../../node_modules/bootstrap/dist/css/bootstrap-grid.css";
 import "reset-css";
 import "./../css/style.scss";
-import "./preloader.js"
+import "./preloader.js";
 import preloader from "./preloader.js";
 let url_string = window.location.href;
 let url = new URL(url_string);
@@ -20,7 +20,10 @@ fetch(postURL)
       data.content.rendered
     }`;
     setTimeout(() => {
-      preloader()
+      preloader();
     }, 500);
   })
-  .catch(err => console.log(err));
+  .catch(err => {
+    console.log(err);
+    preloader();
+  });
