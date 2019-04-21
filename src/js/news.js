@@ -14,7 +14,7 @@ fetch(WPapiURL)
       writePost(element);
       setTimeout(() => {
         preloader();
-      }, 500);
+      }, 1000);
     });
   })
   .catch(err => {

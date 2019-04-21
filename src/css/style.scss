@@ -6,6 +6,8 @@
 @import "./footer.scss";
 @import "./post.scss";
 @import "./preloader.scss";
+@import "./home.scss";
+@import "./devs.scss";
 h1 {
   font-family: $fontCool;
 }
@@ -16,4 +18,7 @@ h2{
 body{
   min-height: 100vh;
 }
+
+
+
 

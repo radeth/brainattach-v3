@@ -21,7 +21,7 @@ fetch(postURL)
     }`;
     setTimeout(() => {
       preloader();
-    }, 500);
+    }, 1000);
   })
   .catch(err => {
     console.log(err);

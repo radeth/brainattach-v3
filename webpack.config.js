@@ -8,7 +8,8 @@ module.exports = {
     app: './src/js/index.js',
     post: './src/js/post.js',
     news: './src/js/news.js',
-    contact:'./src/js/contact.js'
+    contact:'./src/js/contact.js',
+    team:'./src/js/team.js'
   },
   output: {
     path: path.resolve(__dirname, "dist"),
@@ -84,6 +85,12 @@ module.exports = {
       template: 'src/contact.html',
       filename: 'contact.html',
       chunks: ['contact']
+    }),
+    new HtmlWebpackPlugin({
+      alwaysWriteToDisk: true,
+      template: 'src/team.html',
+      filename: 'team.html',
+      chunks: ['team']
     }),
     new HtmlWebpackHarddiskPlugin(),
     new CleanWebpackPlugin(),
