@@ -1,13 +1,30 @@
 footer {
-    text-align: center;
+   text-align: center;
     p{
+      text-align: end;
         font-weight: 900;
         font-family: $fontCool
     }
   img {
     position: relative;
-    filter: blur(1px);
+    filter: blur(2px);
     height: auto;
     width: 100%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  footer {
+    img {
+      height: auto;
+      width: 65%;
+    }
+  }
+}
+@media only screen and (min-width: 1024px) {
+  footer {
+  img{
+      height: auto;
+      width: 800px;
+    }
   }
 }

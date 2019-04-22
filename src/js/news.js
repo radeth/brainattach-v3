@@ -24,11 +24,11 @@ fetch(WPapiURL)
 
 function writePost(body) {
   let imageURL = body.better_featured_image.source_url;
-  postHTML.innerHTML += `<h2 class="mt-2">${
+  postHTML.innerHTML += `<div class="col-12 col-md-6"><h2 class="mt-2">${
     body.title.rendered
   }</h2><a class="myButton mt-2" href="post.html?id=${
     body.id
   }">read</a><img class="mt-2" src="${imageURL}" alt="image-${
     body.id
-  }"></br></br>`;
+  }"></br></br></div>`;
 }

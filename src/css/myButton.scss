@@ -1,11 +1,9 @@
 .myButton
 {
-  text-align: center;
+  display: inline-block;
   width: auto;
-	position: relative;
 	padding: 10px 40px;
   margin: 0px 10px 10px 0px;
-  float: left;
 	border-radius: 10px;
 	font-family: $fontCool;
 	font-size: 25px;

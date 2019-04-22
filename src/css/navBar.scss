@@ -1,18 +1,13 @@
 @import "./settings";
 nav {
+  z-index: 100;
+  width: 100%;
+  position: fixed;
+  text-align: end;
   font-family: $fontCool;
   background-color: $colorGray;
-  ul {
-    margin: 0;
-    padding: 0;
-    li {
-      display: inline-block;
-      list-style-type: none;
-    }
-  }
   a {
     color: white;
-
     font-weight: 900;
     display: block;
     line-height: 2em;
@@ -20,6 +15,31 @@ nav {
   }
   img {
     height: auto;
-    width: 100%;
+    width: 150%;
   }
 }
+@media only screen and (min-width: 480px) {
+  nav {
+    img {
+      height: auto;
+      width: 90%;
+    }
+  }
+}
+@media only screen and (min-width: 768px) {
+  nav {
+    img {
+      height: auto;
+      width: 100px;
+    }
+  }
+}
+@media only screen and (min-width: 1024px) {
+  nav {
+    img {
+      height: auto;
+      width: 120px;
+    }
+  }
+}
+

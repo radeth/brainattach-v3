@@ -1,4 +1,5 @@
 h3,h2{
+    text-align: center;
     font-family: $fontCool;
     font-size: 1.6rem;
     font-weight: 900;
@@ -9,6 +10,7 @@ h4{
     font-weight: 600;
 }
 p{
+    text-align: justify;
     line-height: 1.4rem;
     font-size: 1.3rem;
     font-family:$fontParagraph
@@ -28,4 +30,7 @@ p{
         width: 100%;
         height: auto;;
     }
+}
+.devs{
+    text-align: center;
 }
