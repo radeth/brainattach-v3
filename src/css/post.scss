@@ -1,13 +1,17 @@
-#post{
-    min-height: 80vh;
-    h2{
-        font-size: 1.4rem;
+#post {
+  min-height: 80vh;
+  text-align: center;
+  h2 {
+    font-size: 1.4rem;
+  }
+  p {
+    margin-bottom: 5%;
+    font-family: $fontParagraph;
+  }
+  figure {
+    img {
+      height: auto;
+      width: 50%;
     }
-    p{
-        font-family: $fontParagraph;
-    }
-    img{
-        height: auto;
-        width: 100%;
-    }
+  }
 }

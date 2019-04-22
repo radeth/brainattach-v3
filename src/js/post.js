@@ -16,9 +16,9 @@ fetch(postURL)
   })
   .then(data => {
     document.title = data.title.rendered;
-    post.innerHTML += `<h2>${data.title.rendered}</h2></br>${
+    post.innerHTML += `<div class="col pt-5 mt-5"><h2 class="m-1">${data.title.rendered}</h2></br>${
       data.content.rendered
-    }`;
+    }</div>`;
     setTimeout(() => {
       preloader();
     }, 1000);
