@@ -40,6 +40,7 @@
   "dependencies": {
     "aos": "^2.3.4",
     "bootstrap": "^4.3.1",
+    "npm": "^6.9.0",
     "reset-css": "^4.0.1"
   }
 }

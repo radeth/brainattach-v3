@@ -8,10 +8,18 @@
     margin-bottom: 5%;
     font-family: $fontParagraph;
   }
-  figure {
+  .wp-block-image {
     img {
       height: auto;
-      width: 50%;
+      width: 100%;
+    }
+  }
+}
+@media only screen and (min-width: 768px) {
+  .wp-block-image{
+    img {
+      height: auto;
+      width: 70% !important;
     }
   }
 }
