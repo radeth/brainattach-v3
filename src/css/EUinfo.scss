@@ -1,0 +1,21 @@
+.EUinfo{
+    text-align: center;
+    z-index: 1000;
+    background-color: white;
+    p{
+        text-align: center;
+    }
+    img{
+        width: 100%;
+        height: auto;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .EUinfo{
+        img{
+            width: 60%;
+            height: auto;
+        }
+    }
+  }
+  
